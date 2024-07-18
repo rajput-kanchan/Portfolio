@@ -56,7 +56,7 @@ const Contact = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2 mb-7">
-          <Link href="https://github.com/kancrajp">
+          <Link href="https://github.com/rajput-kanchan">
             <Image
               src={GithubIcon}
               alt="Github Icon"

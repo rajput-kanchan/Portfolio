@@ -13,7 +13,19 @@ const Skills = () => {
   };
 
   return (
-    <section className="text-white" id="skills">
+    <motion.section
+      className="text-white"
+      id="skills"
+      initial={{
+        opacity: 0,
+      }}
+      whileInView={{
+        opacity: 1,
+      }}
+      transition={{
+        duration: 1,
+      }}
+    >
       <div className="flex flex-col gap-9 justify-center">
         <h2 className="text-center text-5xl font-semibold mt-14 -mb-1">
           My Skills
@@ -264,7 +276,7 @@ const Skills = () => {
           </motion.li>
         </ul>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
