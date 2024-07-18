@@ -1,3 +1,4 @@
+"use server";
 import { Resend } from "resend";
 import { validateString, getErrorMessage } from "../../utils/constant";
 
