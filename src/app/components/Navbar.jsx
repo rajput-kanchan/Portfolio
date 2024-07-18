@@ -44,7 +44,7 @@ const Navbar = () => {
           className="text-3xl md:text-2xl text-white font-semibold"
         >
           <Image
-            src="/images/image/ph.avif"
+            src="/images/logo.avif"
             alt="logo"
             width={40}
             height={40}
