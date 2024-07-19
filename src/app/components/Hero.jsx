@@ -48,7 +48,10 @@ const Hero = () => {
             </button>
 
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-emerald-800 via-cyan-700 to-purple-500 bg-transparent text-white mt-4">
-              <a href="/src/app/cv.pdf" download="cv.pdf">
+              <a
+                href="/src/app/resume/Kanchan_Rajput_Frontend_Resume.pdf"
+                download="cv.pdf"
+              >
                 <span className="block bg-[#121212] rounded-full px-5 py-2 hover:bg-transparent hover:text-white">
                   Download CV
                 </span>
