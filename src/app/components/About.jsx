@@ -24,8 +24,12 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
-        <li>Frontend Developer</li>
-        <li>Experience In HTML, CSS & JavaScript</li>
+        <li>
+          I bring 1 year of expertise as a Frontend Developer with a strong
+          foundation in HTML, CSS, and JavaScript
+        </li>
+        <li>Committed to creating dynamic and user-friendly interfaces</li>
+        <li>My wand of choice is - React.js</li>
       </ul>
     ),
   },
