@@ -27,12 +27,12 @@ const Skills = () => {
       }}
     >
       <div className="flex flex-col gap-9 justify-center">
-        <h2 className="text-center text-5xl font-semibold mt-14 -mb-1">
+        <h2 className="text-center text-5xl font-semibold mt-14 -mb-3">
           My Skills
         </h2>
         <ul
           ref={ref}
-          className="flex gap-3 flex-wrap items-center py-6 px-3 xl:gap-10 sm:py-14 xl:px-14"
+          className="flex gap-3 flex-wrap items-center py-4 px-3 xl:gap-10 sm:py-14 xl:px-14"
         >
           <motion.li
             variants={cardVariants}
